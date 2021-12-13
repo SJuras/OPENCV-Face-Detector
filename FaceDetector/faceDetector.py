@@ -18,7 +18,7 @@ print(face_coordinates)
 # draw rectangles and loop it!
 # each detected face gets a rectangle
 for (x, y, w, h) in face_coordinates:
-    cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
+    cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2) 
     cv2.putText(img, "Dude", (x,y-5), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0, 255, 0), 1)
 # (x, y, w, h) = face_coordinates[0]
 
