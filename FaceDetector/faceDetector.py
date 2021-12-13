@@ -31,4 +31,4 @@ cv2.imshow("Final image", img)
 cv2.waitKey(0)
 
 
-print("Sve ok")
+print("Code Execured")
